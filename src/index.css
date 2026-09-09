@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import "tailwindcss";
+
+
+:root{
+  font-family: "Gravitas One", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
