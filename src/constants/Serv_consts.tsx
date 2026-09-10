@@ -17,37 +17,55 @@ import more from '../assets/service_img/more.jpg'
 */ 
 
 // current info is a placeholder
-export const services = [
+export const servicesData = [
     {
-      title: "Remodeling",
-      description: "Complete home and commercial remodeling services designed to transform your space with quality craftsmanship and attention to detail.",
-      //image: remodeling,
-      alt: "remodeling example"
-    },
-    {
-      title: "Carpentry",
-      description: "Expert carpentry tailored to your needs — from custom builds to structural work. Carpentry is our specialty and most requested service.",
-      //image: carpentry, 
-      alt: "carpentry example"
-    },
-    {
-      title: "Demolition",
-      description: "Safe, efficient demolition services to prepare your property for new builds, renovations, or upgrades.",
-      //image: demolition,
-      alt: "demolition example"
-    },
-    {
-      title: "Siding",
-      description: "Durable and attractive siding solutions to enhance curb appeal while protecting your property from the elements.",
-      //image: siding,
-      alt: "siding example"
-    },
-    {
-      title: "Other",
-      description: "Need anything else done? Contact us to work out the job you want!",
-      //image: more,
-      alt: "other"
-    }
+    id: "interior",
+    title: "Interior Remodeling",
+    tagline: "Custom kitchens, living spaces, and luxury bathrooms built to last.",
+    description:
+      "We handle every phase of interior transformations—from floor-plan reconfigurations and load-bearing removals to custom cabinetry, tilework, and finishing details.",
+    capabilities: [
+      "Full kitchen & bathroom renovations",
+      "Hardwood, vinyl plank, & custom tile flooring",
+      "Drywall installation, repair, and texturing",
+      "Trim carpentry, baseboards, & crown molding",
+      "Interior wall framing and structural adjustments",
+      "Turnkey interior paint & fine finishing",
+    ],
+    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Interior+Remodel",
+  },
+  {
+    id: "roofing-gutters",
+    title: "Roofing & Gutter Systems",
+    tagline: "Weather-tight protection engineered for longevity and curb appeal.",
+    description:
+      "Protect your structure from the top down. We provide thorough inspections, storm tear-offs, complete re-roofs, and seamless drainage systems.",
+    capabilities: [
+      "Architectural asphalt shingle replacements",
+      "Leak detection, flashing repairs, & preventative maintenance",
+      "Seamless aluminum gutter fabrication & installation",
+      "Gutter guard protection systems",
+      "Fascia and soffit rot repair & replacement",
+      "Full post-job magnetic sweep and cleanup",
+    ],
+    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Roofing+%26+Gutters",
+  },
+  {
+    id: "decks-exterior",
+    title: "Custom Decks & Exterior Living",
+    tagline: "Functional outdoor spaces tailored to your terrain and lifestyle.",
+    description:
+      "Expand your functional footprint. We design and construct weather-resistant decks, covered porches, and siding upgrades that withstand the elements.",
+    capabilities: [
+      "Treated wood and composite (Trex/TimberTech) decking",
+      "Multi-level deck engineering & rebuilds",
+      "Covered patios, pergolas, and porticos",
+      "Modern cable, wood, or aluminum railing systems",
+      "Fiber cement, vinyl, and board-and-batten siding",
+      "Full local code compliance & permit acquisition",
+    ],
+    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Decks+%26+Exteriors",
+  }
 ]
 
 /*
@@ -78,9 +96,9 @@ export const QuickLink = [
 // services may change
 export const ServicesLink = [
     { href: '/services', text: 'Remodeling' },
-    { href: '/services', text: 'Carpentry' },
-    { href: '/services', text: 'Demolition' },
-    { href: '/services', text: 'Siding Packages' }
+    { href: '/services', text: 'Roofing & Gutters' },
+    { href: '/services', text: 'Custom Decks' },
+    { href: '/services', text: 'Exterior Living' }
 ]
 
 export const contactInfo = {

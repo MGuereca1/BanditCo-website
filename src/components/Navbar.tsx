@@ -15,7 +15,7 @@ const Navbar = () => {
   
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
-      <div className="container px-4 mx-auto relative text-m">
+      <div className="container px-4 mx-auto relative text-lg">
         <div className="relative flex items-center justify-center lg:justify-between">
           {/* Empty div for desktop spacing - keeps logo centered on mobile */}
           <div className="hidden lg:block flex-1"></div>

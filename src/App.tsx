@@ -12,15 +12,19 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './components/Contact'
 
+import Terms from './pages/Terms'
+import Privacy from './pages/Privacy'
 
 // Defined outside the component so it is only created once
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path='/' element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="services" element={<Services />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path='services' element={<Services />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='/terms' element={<Terms />}/>
+      <Route path='/privacy' element={<Privacy />}/>
     </Route>
   )
 )
