@@ -68,21 +68,31 @@ export const servicesData = [
   }
 ]
 
-/*
-import Logo from '../assets/logo.JPG'
-import values from '../assets/gallery/siding/SKHC7343.JPG'
-*/
+// MODIFY PICTURES
+import Logo from '../assets/hero.png'
+import values from '../assets/service_img/hero_temp.jpg'
+
 
 export const about = [
     {
       title: "Our Story",
       description: " Bandit Co's story",
-      //img: Logo
+      img: Logo
+    },
+    {
+      title: "Our Founder",
+      description: " Bandit Co's Founder",
+      img: Logo
+    },
+    {
+      title: "Our Team",
+      description: "More info about team...",
+      img: values
     },
     {
       title: "Our Values",
       description: "More info about company...",
-      //img: values
+      img: values
     }
 ]
 
