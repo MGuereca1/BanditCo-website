@@ -1,16 +1,17 @@
 
 const Contact = () => {
   return (
+    // modify so color is glass gradient black/grey
     <div>
-  <section id="contact" className="bg-white text-black py-16 border-t border-neutral-700/80">
+  <section id="contact" className="bg-[#171717] text-black py-16 border-t border-[#b89d76]">
     <div className="container mx-auto px-4 max-w-3xl">
       
       {/* Section Header */}
       <div className="text-center mb-10">
-        <h1 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
+        <h1 className="text-3xl text-[#b89d76] md:text-4xl font-bold mb-3 tracking-tight">
           Need a Quote?
         </h1>
-        <h3 className="text-lg md:text-xl text-black">
+        <h3 className="text-lg md:text-xl text-white">
           Contact us below
         </h3>
       </div>
@@ -20,7 +21,7 @@ const Contact = () => {
         
         {/* Full Name */}
         <div className="flex flex-col">
-          <label className="mb-2 font-medium">Full Name</label>
+          <label className="mb-2 font-medium text-white">Full Name</label>
           <input
             type="text"
             name="user_name"
@@ -32,7 +33,7 @@ const Contact = () => {
 
         {/* Email */}
         <div className="flex flex-col">
-          <label className="mb-2 font-medium">Email Address</label>
+          <label className="mb-2 font-medium text-white">Email Address</label>
           <input
             type="email"
             name="user_email"
@@ -44,7 +45,7 @@ const Contact = () => {
 
         {/* Phone */}
         <div className="flex flex-col">
-          <label className="mb-2 font-medium">Phone Number</label>
+          <label className="mb-2 font-medium text-white">Phone Number</label>
           <input
             type="tel"
             name="phone_number"
@@ -56,7 +57,7 @@ const Contact = () => {
 
         {/* Message */}
         <div className="flex flex-col">
-          <label className="mb-2 font-medium">Your Message</label>
+          <label className="mb-2 font-medium text-white">Your Message</label>
           <textarea
             name="message"
             required
@@ -70,7 +71,7 @@ const Contact = () => {
         <div className="pt-4 text-center">
           <button
             type="submit"
-            className="px-8 py-3 rounded-lg bg-yellow-400 text-neutral-900 font-semibold shadow-md hover:bg-yellow-300 transition cursor-pointer"
+            className="px-8 py-3 rounded-lg bg-[#b89d76] text-black font-semibold tracking-wide hover:bg-[#947c5d] active:bg-[#6e5a41] transition-all shadow-md hover:shadow-lg cursor-pointer"
           >
             Send Message
           </button>

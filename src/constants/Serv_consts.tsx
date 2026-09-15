@@ -75,25 +75,33 @@ import values from '../assets/service_img/hero_temp.jpg'
 
 export const about = [
     {
-      title: "Our Story",
-      description: " Bandit Co's story",
-      img: Logo
-    },
-    {
-      title: "Our Founder",
-      description: " Bandit Co's Founder",
-      img: Logo
-    },
-    {
-      title: "Our Team",
-      description: "More info about team...",
-      img: values
-    },
-    {
-      title: "Our Values",
-      description: "More info about company...",
-      img: values
-    }
+    header: "Our Story",
+    title: "Three Generations of Craftsmanship",
+    description:
+      "Founded by Anthony Pendley, The Bandit Co. brings together three generations of construction knowledge and more than 15 years of hands-on experience across remodeling, roofing, exterior projects, and general contracting. For us, construction isn’t just an industry, it’s a craft passed down through mentors, family, and hard-earned lessons on real jobsites throughout North Georgia.",
+    img: Logo,
+  },
+  {
+    header: "Our Standard",
+    title: "Built Right. No Shortcuts.",
+    description:
+      "This is more than a motto. It is the standard this company was built on from day one. We take the time to do the work properly, pay attention to the details that matter over time, and use high-grade materials. Whether we are replacing a roof, remodeling a living area, or framing a custom deck, we treat every home with the care it deserves because we know that’s where families live and make memories.",
+    img: values,
+  },
+  {
+    header: "Our Team",
+    title: "The Hands Behind the Work",
+    description:
+      "Team info here.",
+    img: values,
+  },
+  {
+    header: "Our Values",
+    title: "Good People & Honest Work",
+    description:
+      "Quality work doesn't happen by accident; it comes from clear communication, honest guidance, and reliable tradesmen who take pride in their craft. We are not interested in merely finishing a punch list, we are here to give you straightforward answers, stand behind what we put our name on, and build things designed to last.",
+    img: values,
+  },
 ]
 
 export const QuickLink = [
@@ -127,7 +135,7 @@ export const contactInfo = {
 
 export const social = {
     message: {
-        text: ' Message to reader here'
+        text: 'Built Right. No Shortcuts.'
     },
     social1: {
         label: 'Facebook',

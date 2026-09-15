@@ -14,7 +14,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 bg-neutral-950 text-white border-b border-[#b89d76]">
       <div className="container px-4 mx-auto relative text-lg">
         <div className="relative flex items-center justify-center lg:justify-between">
           {/* Empty div for desktop spacing - keeps logo centered on mobile */}
@@ -26,8 +26,8 @@ const Navbar = () => {
               {/*modfify logo image here */}
               <img className="w-full h-full object-cover transform scale-200" src={heroImg} alt="logo" />
             </div>
-            <span className="text-xl tracking-tight">
-              Bandit CO.
+            <span className="text-xl tracking-tight text-[#b89d76]">
+              The Bandit Co.
             </span>
           </div>
           

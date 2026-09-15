@@ -8,31 +8,31 @@ const Footer = () => {
   const currentYear  = new Date().getFullYear()
 
   return (
-    <footer className="bg-neutral-950 text-neutral-300 pt-16 border-t border-neutral-700/80">
+    <footer className="bg-neutral-950 text-neutral-300 pt-16 border-t border-[#b89d76]">
       <div className="container mx-auto px-6">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info Section */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4"> Bandit Co.</h3>
-            <p className="mb-4">{social.message.text}</p>
+            <h3 className="text-xl font-bold text-[#b89d76] mb-4"> Bandit Co.</h3>
+            <p className="mb-4 text-[#b89d76]">{social.message.text}</p>
             <div className="flex space-x-4">
               <a
                 href={social.social1.href}
-                className="hover:text-yellow-400 transition"
+                className="hover:text-[#b89d76] transition"
               >
                 <FaFacebook size={20} />
               </a>
               <a
                 href={social.social2.href}
-                className="hover:text-yellow-400 transition"
+                className="hover:text-[#b89d76] transition"
               >
                 <FaInstagram size={20} />
               </a>
 
               <a
                 href={social.social2.href}
-                className="hover:text-yellow-400 transition"
+                className="hover:text-[#b89d76] transition"
               >
                 <FaTiktok size={20} />
               </a>
@@ -41,13 +41,13 @@ const Footer = () => {
 
           {/* Quick Links Section */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-[#b89d76] mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {QuickLink.map((link, index) => (
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="hover:text-yellow-400 transition"
+                    className="hover:text-[#b89d76] transition"
                   >
                     {link.text}
                   </a>
@@ -58,13 +58,13 @@ const Footer = () => {
 
           {/* Services Section */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Our Services</h4>
+            <h4 className="text-lg font-semibold text-[#b89d76] mb-4">Our Services</h4>
             <ul className="space-y-2">
               {ServicesLink.map((link, index) => (
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="hover:text-yellow-400 transition"
+                    className="hover:text-[#b89d76] transition"
                   >
                     {link.text}
                   </a>
@@ -75,13 +75,13 @@ const Footer = () => {
 
           {/* Contact Info Section */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Get In Touch</h4>
+            <h4 className="text-lg font-semibold text-[#b89d76] mb-4">Get In Touch</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
                 <a
                   href={contactInfo.email.href}
-                  className="hover:text-yellow-400 transition"
+                  className="hover:text-[#b89d76] transition"
                 >
                   {contactInfo.email.address}
                 </a>
@@ -90,7 +90,7 @@ const Footer = () => {
                 <Phone size={16} />
                 <a
                   href={contactInfo.phone.href}
-                  className="hover:text-yellow-400 transition"
+                  className="hover:text-[#b89d76] transition"
                 >
                   {contactInfo.phone.display}
                 </a>
@@ -104,13 +104,13 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-neutral-700/80 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-neutral-500">
+        <div className="border-t border-[#b89d76] pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-white">
           <p>&copy; {currentYear} BanditCo LLC. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="Terms" className="hover:text-yellow-400 transition">
+            <Link to="Terms" className="hover:text-[#b89d76] transition">
               Terms of Service
             </Link>
-            <Link to="Privacy" className="hover:text-yellow-400 transition">
+            <Link to="Privacy" className="hover:text-[#b89d76] transition">
               Privacy Policy
             </Link>
           </div>

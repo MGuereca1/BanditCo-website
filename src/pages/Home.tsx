@@ -5,7 +5,7 @@ import Contact from "../components/Contact"
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#171717]">
         <Hero />
         <Home_About />
         <Home_Services />

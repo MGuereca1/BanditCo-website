@@ -40,13 +40,13 @@ const About = () => {
 
                 {/* Details */}
                 <div className="lg:w-1/2 flex flex-col justify-center">
-                  <span className="text-lg font-semibold tracking-wider uppercase text-yellow-600 mb-2">
-                    Our Story
+                  <span className="text-sm md:text-base font-semibold tracking-wider uppercase text-yellow-600 mb-2">
+                    {item.header}
                   </span>
-                  <h2 className="text-3xl font-bold tracking-tight text-neutral-900 mb-3">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-neutral-900 mb-4">
                     {item.title}
                   </h2>
-                  <p className="text-neutral-700 leading-relaxed text-base">
+                  <p className="text-neutral-700 leading-relaxed text-lg md:text-xl">
                     {item.description}
                   </p>
                 </div>
