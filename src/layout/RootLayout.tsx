@@ -1,20 +1,21 @@
 // for navbar usage
 
 import Navbar from '../components/Navbar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, ScrollRestoration} from 'react-router-dom'
 import Footer from '../components/Footer'
 
 const RootLayout = () => {
     console.log('RootLayout is rendering')
 
     return (
-        <div>
-            <Navbar/>
-            <div>
-                <Outlet />
-            </div>
-            <Footer />
-        </div>
+        <>
+      <ScrollRestoration />
+      <Navbar /> 
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
     )
 }
 

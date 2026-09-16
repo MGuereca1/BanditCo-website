@@ -53,7 +53,7 @@ const Terms = () => {
             <p>
               For questions about these terms, please contact us at:
               <br />
-              📧 Bandit.Co@gmail.com
+              📧 anthony@thebanditco.info
             </p>
           </div>
         </div>

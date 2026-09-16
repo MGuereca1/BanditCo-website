@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info Section */}
           <div>
-            <h3 className="text-xl font-bold text-[#b89d76] mb-4"> Bandit Co.</h3>
+            <h3 className="text-xl font-bold text-[#b89d76] mb-4"> The Bandit Co.</h3>
             <p className="mb-4 text-[#b89d76]">{social.message.text}</p>
             <div className="flex space-x-4">
               <a
@@ -105,7 +105,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-[#b89d76] pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-white">
-          <p>&copy; {currentYear} BanditCo LLC. All rights reserved.</p>
+          <p>&copy; {currentYear} The Bandit Co. LLC. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="Terms" className="hover:text-[#b89d76] transition">
               Terms of Service

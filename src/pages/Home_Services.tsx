@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom"
 
+import construction from '../assets/service_img/construction.jpg'
+import decks from '../assets/service_img/decks.jpg'
+import exterior from '../assets/service_img/exterior_remodeling.jpg'
+import interior from '../assets/service_img/interior_remodeling.jpg'
+import gutters from '../assets/service_img/gutters.jpg'
+import roofing from '../assets/service_img/roofers.jpg'
+
 const Home_Services = () => {
     return (
     
@@ -17,7 +24,7 @@ const Home_Services = () => {
             <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503"/>
+                        <img alt="content" className="object-cover object-center h-full w-full" src={interior}/>
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">Interior Remodeling</h2>
                     <p className="text-white leading-relaxed mt-2">Kitchen and bathroom remodels, flooring, drywall, trim, painting, and complete interior renovations.</p>
@@ -25,7 +32,7 @@ const Home_Services = () => {
 
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+                        <img alt="content" className="object-cover object-center h-full w-full" src={exterior}/>
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">Exterior Remodeling</h2>
                     <p className="text-white leading-relaxed mt-2">Exterior upgrades, repairs, siding, and improvements designed to enhance your home's appearance and durability.</p>
@@ -34,7 +41,7 @@ const Home_Services = () => {
                 
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505" />
+                        <img alt="content" className="object-cover object-center h-full w-full" src={roofing} />
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">Roofing</h2>
                     <p className="text-white leading-relaxed mt-2">Roof repairs, replacements, and new roofing projects built to protect your home for years to come.</p>
@@ -42,7 +49,7 @@ const Home_Services = () => {
                 </div>
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503"/>
+                        <img alt="content" className="object-cover object-center h-full w-full" src={gutters}/>
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">Gutters</h2>
                     <p className="text-white leading-relaxed mt-2">Gutter installation, replacement, repairs, and drainage solutions to help protect your home's foundation and exterior.</p>
@@ -50,7 +57,7 @@ const Home_Services = () => {
 
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+                        <img alt="content" className="object-cover object-center h-full w-full" src={decks}/>
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">Custom Decks</h2>
                     <p className="text-white leading-relaxed mt-2">Custom-built decks designed around your home, your space, and how you want to use it.</p>
@@ -59,7 +66,7 @@ const Home_Services = () => {
                 
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505" />
+                        <img alt="content" className="object-cover object-center h-full w-full" src={construction} />
                     </div>
                     <h2 className="text-xl font-medium title-font text-[#b89d76] mt-5">General Remodeling & Construction</h2>
                     <p className="text-white leading-relaxed mt-2">Home improvements, renovations, repairs, and custom construction projects of all sizes.</p>

@@ -6,6 +6,8 @@ import { navItems } from '../constants/Serv_consts'
 import heroImg from '../assets/hero.png'
 import { NavLink } from 'react-router-dom'
 
+import Icon from '../assets/BanditCo_Outline.svg'
+
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState<boolean>(false)
 
@@ -21,12 +23,15 @@ const Navbar = () => {
           <div className="hidden lg:block flex-1"></div>
           
           {/* Centered logo and company name */}
-          <div className="flex items-center justify-center">
-            <div className="h-10 w-10 rounded-full overflow-hidden">
-              {/*modfify logo image here */}
-              <img className="w-full h-full object-cover transform scale-200" src={heroImg} alt="logo" />
+          <div className="flex items-center justify-center gap-3">
+            <div className="h-14 w-14 flex items-center justify-center">
+              <img 
+                className="w-full h-full object-contain" 
+                src={Icon} 
+                alt="Bandit Co Logo" 
+              />
             </div>
-            <span className="text-xl tracking-tight text-[#b89d76]">
+            <span className="text-2xl font-semibold tracking-tight text-[#b89d76]">
               The Bandit Co.
             </span>
           </div>

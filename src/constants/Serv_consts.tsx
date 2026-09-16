@@ -16,6 +16,13 @@ import siding from '../assets/service_img/siding.jpg'
 import more from '../assets/service_img/more.jpg'
 */ 
 
+import construction from '../assets/service_img/construction.jpg'
+import decks from '../assets/service_img/decks.jpg'
+import exterior from '../assets/service_img/exterior_remodeling.jpg'
+import interior from '../assets/service_img/interior_remodeling.jpg'
+import gutters from '../assets/service_img/gutters.jpg'
+import roofing from '../assets/service_img/roofers.jpg'
+
 // current info is a placeholder
 export const servicesData = [
     {
@@ -32,7 +39,7 @@ export const servicesData = [
       "Interior wall framing and structural adjustments",
       "Turnkey interior paint & fine finishing",
     ],
-    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Interior+Remodel",
+    image: interior,
   },
   {
     id: "roofing-gutters",
@@ -48,7 +55,7 @@ export const servicesData = [
       "Fascia and soffit rot repair & replacement",
       "Full post-job magnetic sweep and cleanup",
     ],
-    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Roofing+%26+Gutters",
+    image: gutters,
   },
   {
     id: "decks-exterior",
@@ -64,13 +71,14 @@ export const servicesData = [
       "Fiber cement, vinyl, and board-and-batten siding",
       "Full local code compliance & permit acquisition",
     ],
-    image: "https://dummyimage.com/800x600/e2e8f0/1e293b&text=Decks+%26+Exteriors",
+    image:decks,
   }
 ]
 
 // MODIFY PICTURES
-import Logo from '../assets/hero.png'
-import values from '../assets/service_img/hero_temp.jpg'
+import Logo from '../assets/BanditCo_txt.svg'
+import values from '../assets/BanditCo_Inverted.svg'
+import icon from '../assets/BanditCo_BW.svg'
 
 
 export const about = [
@@ -86,15 +94,15 @@ export const about = [
     title: "Built Right. No Shortcuts.",
     description:
       "This is more than a motto. It is the standard this company was built on from day one. We take the time to do the work properly, pay attention to the details that matter over time, and use high-grade materials. Whether we are replacing a roof, remodeling a living area, or framing a custom deck, we treat every home with the care it deserves because we know that’s where families live and make memories.",
-    img: values,
+    img: icon,
   },
-  {
-    header: "Our Team",
-    title: "The Hands Behind the Work",
-    description:
-      "Team info here.",
-    img: values,
-  },
+  // {
+  //   header: "Our Team",
+  //   title: "The Hands Behind the Work",
+  //   description:
+  //     "Team info here.",
+  //   img: values,
+  // },
   {
     header: "Our Values",
     title: "Good People & Honest Work",
@@ -121,12 +129,12 @@ export const ServicesLink = [
 
 export const contactInfo = {
     email: {
-        address: 'BanditCo@gmail.com',
-        href: 'mailto:BanditCo@gmail.com'
+        address: 'anthony@thebanditco.info',
+        href: 'mailto:anthony@thebanditco.info'
     },
     phone: {
-        display: '123-456-7890',
-        href: 'tel:1234567890'
+        display: '404-988-3297',
+        href: 'tel:4049883297'
     },
     address: {
         full: '173 Bessie Ln \nJasper, GA 30143'

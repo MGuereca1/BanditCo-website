@@ -8,7 +8,7 @@ const Privacy = () => {
     }, [])
 
   return (
-    <div className="container mx-auto px-6 py-12 max-w-4xl">
+    <div className="container mx-auto px-6 py-12 max-w-4xl ">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
       <div className="prose prose-lg">
         <p className="mb-4">
@@ -70,7 +70,7 @@ const Privacy = () => {
             <p>
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              📧 Banditco@gmail.com
+              📧 anthony@thebanditco.info
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Privacy = () => {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <a 
             href="/" 
-            className="inline-flex items-center text-yellow-400 hover:text-blue-800 transition-colors duration-200"
+            className="inline-flex items-center text-[#b89d76] hover:text-blue-800 transition-colors duration-200"
           >
             Back to Home
           </a>
