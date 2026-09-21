@@ -12,6 +12,35 @@ const Contact = () => {
 
     if (!form.current) return;
 
+    const formData = new FormData(form.current);
+    const name = (formData.get('user_name') as string || '').trim();
+    const phone = (formData.get('phone_number') as string || '').trim();
+
+    // Guard: Name must be at least 2 characters and contain only letters, spaces, hyphens, or apostrophes
+    const nameRegex = /^[A-Za-z\s'-]{2,}$/;
+    if (!nameRegex.test(name)) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Invalid Name',
+        text: 'Please enter a valid full name using only letters.',
+      });
+      return;
+    }
+    // Guard: Phone number must not contain letters and must have between 7 and 15 digits
+    // Allows optional symbols like +, -, (, ), and spaces
+    const phoneRegex = /^[0-9+\s()-]+$/;
+    const digitsOnly = phone.replace(/\D/g, '');
+
+    if (!phoneRegex.test(phone) || digitsOnly.length < 7 || digitsOnly.length > 15) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Invalid Phone Number',
+        text: 'Please enter a valid phone number with no letters (7 to 15 digits).',
+      });
+      return;
+    }
+      
+
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID, 
@@ -29,6 +58,7 @@ const Contact = () => {
                 text: "Message sent successfully!",
                 icon: "success"
             })
+            form.current?.reset()
           console.log('SUCCESS!');
         },
         (error) => {
@@ -45,11 +75,11 @@ const Contact = () => {
     // modify so color is glass gradient black/grey
     <div>
     <section id="contact" className="bg-[#171717] text-black py-16 border-t border-[#b89d76]">
-      <div className="container mx-auto px-4 max-w-3xl">
+      <div className="container mx-auto px-4 max-w-xl">
         
         {/* Section Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl text-[#b89d76] md:text-4xl font-bold mb-3 tracking-tight">
+          <h1 className="text-2xl text-[#b89d76] md:text-3xl font-bold mb-3 tracking-tight">
             Need a Quote?
           </h1>
           <h3 className="text-lg md:text-xl text-white">
@@ -91,6 +121,8 @@ const Contact = () => {
               type="tel"
               name="phone_number"
               required
+              pattern="[0-9+\s()-]{7,}"
+              title='Please enter numbers and valid phone symbols only (e.g. 123-456-7890)'
               placeholder="123-456-7890"
               className="px-4 py-3 rounded-lg bg-white border border-neutral-700/60 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/50 outline-none transition"
             />
@@ -112,7 +144,7 @@ const Contact = () => {
           <div className="pt-4 text-center">
             <button
               type="submit"
-              className="px-8 py-3 rounded-lg bg-[#b89d76] text-black font-semibold tracking-wide hover:bg-[#947c5d] active:bg-[#6e5a41] transition-all shadow-md hover:shadow-lg cursor-pointer"
+              className="px-8 py-2 rounded-lg bg-[#b89d76] text-black font-semibold tracking-wide hover:bg-[#947c5d] active:bg-[#6e5a41] transition-all shadow-md hover:shadow-lg cursor-pointer"
             >
               Send Message
             </button>

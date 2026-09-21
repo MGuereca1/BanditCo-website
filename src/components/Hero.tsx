@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     
-    <section className="relative w-full min-h-[700px] overflow-hidden">
+    <section className="relative w-full min-h-[520px] lg:min-h-[580px] overflow-hidden">
 
     {/* Hero Image */}
     <img
@@ -20,7 +20,7 @@ const Hero = () => {
     {/* Hero Content */}
     <div className="relative z-10 container mx-auto px-5 min-h-[700px] flex flex-col items-center justify-center text-center text-white">
 
-        <h1 className="title-font sm:text-6xl text-4xl mb-6 font-bold">
+        <h1 className="title-font sm:text-5xl text-3xl mb-6 font-bold">
             Built Right.
             <br />
             No Shortcuts.

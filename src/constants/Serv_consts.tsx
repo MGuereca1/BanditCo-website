@@ -76,9 +76,9 @@ export const servicesData = [
 ]
 
 // MODIFY PICTURES
-import Logo from '../assets/BanditCo_txt.svg'
-import values from '../assets/BanditCo_Inverted.svg'
-import icon from '../assets/BanditCo_BW.svg'
+import Logo from '../assets/The BanditCo_tan.svg'
+import values from '../assets/The BanditCo_inv_tan.svg'
+import icon from '../assets/BanditCo_inverted_noFillTan.svg'
 
 
 export const about = [
@@ -86,7 +86,7 @@ export const about = [
     header: "Our Story",
     title: "Three Generations of Craftsmanship",
     description:
-      "Founded by Anthony Pendley, The Bandit Co. brings together three generations of construction knowledge and more than 15 years of hands-on experience across remodeling, roofing, exterior projects, and general contracting. For us, construction isn’t just an industry, it’s a craft passed down through mentors, family, and hard-earned lessons on real jobsites throughout North Georgia.",
+      "Founded by Anthony Pendley, The Bandit Co. brings together three generations of construction knowledge and more than 10 years of hands-on experience across remodeling, roofing, exterior projects, and general contracting. For us, construction isn’t just an industry, it’s a craft passed down through mentors, family, and hard-earned lessons on real jobsites throughout North Georgia.",
     img: Logo,
   },
   {

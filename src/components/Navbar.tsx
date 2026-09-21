@@ -3,7 +3,6 @@ import { Menu, X } from 'lucide-react'
 import { navItems } from '../constants/Serv_consts'
 
 //import logo here, using hero.png for now
-import heroImg from '../assets/hero.png'
 import { NavLink } from 'react-router-dom'
 
 import Icon from '../assets/BanditCo_Outline.svg'
@@ -48,7 +47,7 @@ const Navbar = () => {
         </div>
         
         {/* Navigation items - centered below logo */}
-        <ul className="hidden lg:flex justify-center space-x-10 items-center mt-4">
+        <ul className="hidden lg:flex justify-center text-base space-x-10 items-center mt-4">
           {navItems.map((item, index) => (
             <li key={index}>
               {item.href.startsWith('#') ? (
@@ -61,7 +60,7 @@ const Navbar = () => {
         </ul>
 
         {mobileDrawerOpen && (
-          <div className="absolute top-full right-0 z-20 bg-white w-80 p-6 flex flex-col justify-start items-start lg:hidden shadow-lg rounded-bl-lg">
+          <div className="absolute top-full right-0 z-20 bg-[#b89d76]  text-black w-80 p-6 flex flex-col justify-start items-start lg:hidden shadow-lg rounded-bl-lg">
             <ul className="w-full">
               {navItems.map((item, index) => (
                 <li key={index} className="py-3 border-b border-neutral-700 last:border-b-0">
