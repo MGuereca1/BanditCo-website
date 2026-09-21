@@ -8,10 +8,10 @@ const Footer = () => {
   const currentYear  = new Date().getFullYear()
 
   return (
-    <footer className="bg-neutral-950 text-neutral-300 pt-16 border-t border-[#b89d76]">
+    <footer className="bg-neutral-950 text-neutral-300 pt-8 border-t border-[#b89d76]">
       <div className="container mx-auto px-6">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-8">
           {/* Company Info Section */}
           <div>
             <h3 className="text-xl font-bold text-[#b89d76] mb-4"> The Bandit Co.</h3>
