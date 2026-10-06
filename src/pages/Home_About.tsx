@@ -1,5 +1,5 @@
 import headshot from "../assets/pictures/4-OD1A5656.jpg";
-
+import { Link } from "react-router-dom"
 
 const Home_About = () => {
   return (
@@ -56,11 +56,12 @@ const Home_About = () => {
               </div>
 
               <div className="pt-4">
-                <a
-                  href="about"
+                <Link
+                  to="/about"
                   className="text-[#b89d76] hover:text-white font-medium inline-flex items-center transition-colors"
                 >
                   Learn More
+
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -70,9 +71,10 @@ const Home_About = () => {
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
