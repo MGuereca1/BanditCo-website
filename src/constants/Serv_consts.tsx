@@ -16,12 +16,12 @@ import siding from '../assets/service_img/siding.jpg'
 import more from '../assets/service_img/more.jpg'
 */ 
 
-import construction from '../assets/service_img/construction.jpg'
+// import construction from '../assets/service_img/construction.jpg'
 import decks from '../assets/service_img/decks.jpg'
-import exterior from '../assets/service_img/exterior_remodeling.jpg'
+// import exterior from '../assets/service_img/exterior_remodeling.jpg'
 import interior from '../assets/service_img/interior_remodeling.jpg'
 import gutters from '../assets/service_img/gutters.jpg'
-import roofing from '../assets/service_img/roofers.jpg'
+// import roofing from '../assets/service_img/roofers.jpg'
 
 // current info is a placeholder
 export const servicesData = [

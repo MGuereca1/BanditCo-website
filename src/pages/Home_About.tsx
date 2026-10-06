@@ -1,5 +1,5 @@
 import headshot from "../assets/pictures/4-OD1A5656.jpg";
-import { Link } from "react-router-dom";
+
 
 const Home_About = () => {
   return (
