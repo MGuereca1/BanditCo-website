@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
 
               <a
-                href={social.social2.href}
+                href={social.social3.href}
                 className="hover:text-[#b89d76] transition"
               >
                 <FaTiktok size={20} />

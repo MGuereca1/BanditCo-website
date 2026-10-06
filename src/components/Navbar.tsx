@@ -5,7 +5,8 @@ import { navItems } from '../constants/Serv_consts'
 //import logo here, using hero.png for now
 import { NavLink } from 'react-router-dom'
 
-import Icon from '../assets/BanditCo_Outline.svg'
+import Icon from '../assets/BanditCo_inverted_noFillTan.svg'
+
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState<boolean>(false)

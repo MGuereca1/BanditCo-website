@@ -147,15 +147,15 @@ export const social = {
     },
     social1: {
         label: 'Facebook',
-        href: 'facebook link'
+        href: 'https://www.facebook.com/share/1cDyz3wNHR/?mibextid=wwXIfr'
     },
     social2: {
         label: 'Instagram',
-        href: 'instalink'
+        href: 'https://www.instagram.com/the.bandit.co/'
     },
     social3: {
         label: 'TikTok',
-        href: 'TikToklink'
+        href: 'https://www.tiktok.com/@the.bandit.co?is_from_webapp=1&sender_device=pc'
     }
 }
 

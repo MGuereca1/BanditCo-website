@@ -12,7 +12,7 @@ const Privacy = () => {
         <h1 className="text-3xl font-bold mb-6 text-white">Privacy Policy</h1>
         <div className="prose prose-invert prose-lg text-white max-w-none">
           <p className="mb-4">
-            <strong className="text-white">Last updated:</strong> 09/13/2026
+            <strong className="text-white">Last updated:</strong> 10/05/2026
           </p>
           
           <p className="mb-6">
