@@ -39,13 +39,12 @@ const Home_Services = () => {
                     
                 </div>
                 
-                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                {/* <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
                         <img alt="content" className="object-cover object-center h-full w-full" src={roofing} />
                     </div>
                     <h2 className="text-lg font-semibold title-font text-[#b89d76] mt-5">Roofing</h2>
                     <p className="text-white text-sm leading-relaxed mt-2">Roof repairs, replacements, and new roofing projects built to protect your home for years to come.</p>
-                    
                 </div>
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">
@@ -53,7 +52,7 @@ const Home_Services = () => {
                     </div>
                     <h2 className="text-lg font-semibold title-font text-[#b89d76] mt-5">Gutters</h2>
                     <p className="text-white text-sm leading-relaxed mt-2">Gutter installation, replacement, repairs, and drainage solutions to help protect your home's foundation and exterior.</p>
-                </div>
+                </div> */}
 
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="rounded-lg h-64 overflow-hidden">

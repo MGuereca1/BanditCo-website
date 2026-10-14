@@ -41,22 +41,22 @@ export const servicesData = [
     ],
     image: interior,
   },
-  {
-    id: "roofing-gutters",
-    title: "Roofing & Gutter Systems",
-    tagline: "Weather-tight protection engineered for longevity and curb appeal.",
-    description:
-      "Protect your structure from the top down. We provide thorough inspections, storm tear-offs, complete re-roofs, and seamless drainage systems.",
-    capabilities: [
-      "Architectural asphalt shingle replacements",
-      "Leak detection, flashing repairs, & preventative maintenance",
-      "Seamless aluminum gutter fabrication & installation",
-      "Gutter guard protection systems",
-      "Fascia and soffit rot repair & replacement",
-      "Full post-job magnetic sweep and cleanup",
-    ],
-    image: gutters,
-  },
+  // {
+  //   id: "roofing-gutters",
+  //   title: "Roofing & Gutter Systems",
+  //   tagline: "Weather-tight protection engineered for longevity and curb appeal.",
+  //   description:
+  //     "Protect your structure from the top down. We provide thorough inspections, storm tear-offs, complete re-roofs, and seamless drainage systems.",
+  //   capabilities: [
+  //     "Architectural asphalt shingle replacements",
+  //     "Leak detection, flashing repairs, & preventative maintenance",
+  //     "Seamless aluminum gutter fabrication & installation",
+  //     "Gutter guard protection systems",
+  //     "Fascia and soffit rot repair & replacement",
+  //     "Full post-job magnetic sweep and cleanup",
+  //   ],
+  //   image: gutters,
+  // },
   {
     id: "decks-exterior",
     title: "Custom Decks & Exterior Living",
@@ -122,7 +122,7 @@ export const QuickLink = [
 // services may change
 export const ServicesLink = [
     { href: '/services', text: 'Remodeling' },
-    { href: '/services', text: 'Roofing & Gutters' },
+    // { href: '/services', text: 'Roofing & Gutters' },
     { href: '/services', text: 'Custom Decks' },
     { href: '/services', text: 'Exterior Living' }
 ]
