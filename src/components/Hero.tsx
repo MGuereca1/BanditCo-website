@@ -28,8 +28,7 @@ const Hero = () => {
 
         <p className="mb-8 leading-relaxed max-w-2xl text-lg">
             Whether you're remodeling the inside of your home,
-            upgrading the exterior, replacing your roof, installing
-            new gutters, or building a custom deck, we bring the same
+            upgrading the exterior, or building a custom deck, we bring the same
             commitment to every project.
         </p>
 

@@ -20,7 +20,7 @@ import more from '../assets/service_img/more.jpg'
 import decks from '../assets/service_img/decks.jpg'
 // import exterior from '../assets/service_img/exterior_remodeling.jpg'
 import interior from '../assets/service_img/interior_remodeling.jpg'
-import gutters from '../assets/service_img/gutters.jpg'
+// import gutters from '../assets/service_img/gutters.jpg'
 // import roofing from '../assets/service_img/roofers.jpg'
 
 // current info is a placeholder
