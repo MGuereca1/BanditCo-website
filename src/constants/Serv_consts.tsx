@@ -86,14 +86,14 @@ export const about = [
     header: "Our Story",
     title: "Three Generations of Craftsmanship",
     description:
-      "Founded by Anthony Pendley, The Bandit Co. brings together three generations of construction knowledge and more than 10 years of hands-on experience across remodeling, roofing, exterior projects, and general contracting. For us, construction isn’t just an industry, it’s a craft passed down through mentors, family, and hard-earned lessons on real jobsites throughout North Georgia.",
+      "Founded by Anthony Pendley, The Bandit Co. brings together three generations of construction knowledge and more than 10 years of hands-on experience across remodeling, exterior projects, and general contracting. For us, construction isn’t just an industry, it’s a craft passed down through mentors, family, and hard-earned lessons on real jobsites throughout North Georgia.",
     img: Logo,
   },
   {
     header: "Our Standard",
     title: "Built Right. No Shortcuts.",
     description:
-      "This is more than a motto. It is the standard this company was built on from day one. We take the time to do the work properly, pay attention to the details that matter over time, and use high-grade materials. Whether we are replacing a roof, remodeling a living area, or framing a custom deck, we treat every home with the care it deserves because we know that’s where families live and make memories.",
+      "This is more than a motto. It is the standard this company was built on from day one. We take the time to do the work properly, pay attention to the details that matter over time, and use high-grade materials. Whether we are remodeling a living area, or framing a custom deck, we treat every home with the care it deserves because we know that’s where families live and make memories.",
     img: icon,
   },
   // {

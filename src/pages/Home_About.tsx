@@ -38,7 +38,7 @@ const Home_About = () => {
               <p className="leading-relaxed text-sm text-white">
                 Over the past 10-plus years, I've worked across many areas of
                 construction, gaining experience in remodeling, exterior work,
-                roofing, custom projects, and general contracting. Along the way,
+                custom projects, and general contracting. Along the way,
                 I've had the opportunity to learn from some great people and build
                 relationships throughout the industry that I truly value. Those
                 experiences and relationships became part of the foundation for The
