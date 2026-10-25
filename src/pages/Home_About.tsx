@@ -36,7 +36,7 @@ const Home_About = () => {
               </p>
               {/* possible colors: #f7f4d5, #f0ecc0, #ebe3d5  */}
               <p className="leading-relaxed text-sm text-white">
-                Over the past 10-plus years, I've worked across many areas of
+                Over the past 10 years, I've worked across many areas of
                 construction, gaining experience in remodeling, exterior work,
                 custom projects, and general contracting. Along the way,
                 I've had the opportunity to learn from some great people and build
