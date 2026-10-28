@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import construction from '../assets/service_img/construction.jpg'
+import construction from '../assets/service_img/gen_constr.jpg'
 import decks from '../assets/service_img/decks.jpg'
 import exterior from '../assets/service_img/exterior_remodeling.jpg'
 import interior from '../assets/service_img/interior_remodeling.jpg'
