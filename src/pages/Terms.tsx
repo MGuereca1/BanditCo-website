@@ -12,7 +12,7 @@ const Terms = () => {
         <h1 className="text-3xl font-bold mb-6 text-white">Terms of Services</h1>
         <div className="prose prose-invert prose-lg text-white max-w-none">
           <p className="mb-4">
-            <strong className="text-white">Last updated:</strong> 09/13/2025
+            <strong className="text-white">Last updated:</strong> 10/29/2026
           </p>
           
           <p className="mb-6">

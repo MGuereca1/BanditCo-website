@@ -12,7 +12,7 @@ const Privacy = () => {
         <h1 className="text-3xl font-bold mb-6 text-white">Privacy Policy</h1>
         <div className="prose prose-invert prose-lg text-white max-w-none">
           <p className="mb-4">
-            <strong className="text-white">Last updated:</strong> 10/05/2026
+            <strong className="text-white">Last updated:</strong> 10/29/2026
           </p>
           
           <p className="mb-6">
@@ -61,7 +61,7 @@ const Privacy = () => {
             <div>
               <h2 className="text-xl font-semibold mb-3 text-white">5. Your Rights</h2>
               <p>
-                Depending on your location, you may have the right to request access, correction, or deletion of your personal data. To exercise these rights, please contact us at rrconstruction.solutions1@gmail.com.
+                Depending on your location, you may have the right to request access, correction, or deletion of your personal data. To exercise these rights, please contact us at anthony@thebanditco.info
               </p>
             </div>
 
